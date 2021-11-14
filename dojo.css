@@ -1,0 +1,102 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    background-color: lightskyblue;
+    color: mintcream;
+    box-shadow: 3px 3px black;
+    width: 200px;
+    height: 40px;
+}
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    background-color: teal;
+    padding: 20px;
+    margin: 10px;
+}
+.col-2 {
+    flex: 2.6;
+    background-color: teal;
+    padding: 20px;
+    margin: 10px;
+}
+.col-3 {
+    flex: 5.5;
+    background-color: teal;
+    padding: 20px;
+    margin: 10px;
+}
+.nav-title {
+    background-color: slategrey;
+    color: snow;
+    width: 800px;
+    
+}
+.nav-links li a {
+    color: snow;
+    font-size: small;
+    display: inline-block;
+    width: fit-content;
+}
+.nav-links {
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+.nav-links li button {
+    background-color: teal;
+    color: whitesmoke;
+}
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.top-nav {
+    height: 125px;
+    background-color: green;
+    margin-top: 15px;
+    margin-right: 8px;
+    margin-left: 15px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin-left: 15px;
+}
+.main {
+    height: 400px;
+    width: 690px;
+    background-color: red;
+    padding: 10px;
+    margin-left: 15px;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin-left: 10px;
+}
+#advertisement {
+    height: 120px;
+    width: 650px;
+    background-color: purple;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.row {
+    display: flex;
+}
